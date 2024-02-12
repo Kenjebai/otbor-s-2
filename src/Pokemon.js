@@ -13,6 +13,7 @@ export default function Pokemon(){
         <div>
             <h2>Pokemon</h2>
             <Push />
+            <Push />
             <button onClick={addList}>add</button>
                 <div className="post">
                     {list.map((el) => (
