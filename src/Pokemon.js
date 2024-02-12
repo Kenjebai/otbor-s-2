@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Push from "./Push";
 
 export default function Pokemon(){
     const[list, setList] = useState([])
@@ -11,6 +12,7 @@ export default function Pokemon(){
     return(
         <div>
             <h2>Pokemon</h2>
+            <Push />
             <button onClick={addList}>add</button>
                 <div className="post">
                     {list.map((el) => (
